@@ -1,0 +1,170 @@
+.Navigation {
+  display: flex;
+  align-items: center;
+  background-color: red;
+}
+.Navigation .Navigation-icon__left {
+  font-size: 40px;
+  position: fixed;
+  top: 48px;
+  left: 48px;
+}
+.Navigation .Navigation-icon__right {
+  font-size: 40px;
+  position: fixed;
+  top: 48px;
+  right: 48px;
+  z-index: 3;
+}
+.SideBar {
+  position: fixed;
+  left: 48px;
+  top: auto;
+  right: auto;
+  bottom: 46px;
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+}
+.SideBar .SideBar-icon {
+  font-size: 40px;
+  margin: 0 0 5px 0;
+}
+.Introduction {
+  min-height: calc(100vh - 0px);
+  margin: 0 auto 0 auto;
+  padding: 0 160px 0 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.Introduction .Introduction-heading {
+  font-size: 120px;
+  font-family: 'Satisfy', cursive;
+  margin: 0;
+  position: relative;
+  top: 6px;
+  left: 20%;
+  max-width: 600px;
+}
+.Introduction .Introduction-img {
+  height: 440px;
+  width: 440px;
+  position: relative;
+  top: -50px;
+  left: 55%;
+}
+.MainBody {
+  min-height: 100vh;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row wrap;
+  align-content: center;
+  justify-content: center;
+  padding: 30px 200px 30px 200px;
+}
+.Card {
+  height: 450px;
+  width: 250px;
+  background-color: white;
+  margin: 10px;
+  padding: 20px;
+}
+.Card .Card-head {
+  display: flex;
+  justify-content: center;
+}
+.Card .Card-head .Card-head-img {
+  height: 200px;
+  width: 200px;
+}
+.Card .Card-textContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.Card .Card-textContent .Card-textContent-heading {
+  display: flex;
+  justify-content: flex-start;
+}
+.Outro {
+  min-height: 100vh;
+  width: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+.Outro .Outro-img {
+  align-self: center;
+}
+.Outro .Outro-heading {
+  align-self: center;
+  font-size: 70px;
+  font-family: 'Satisfy', cursive;
+  margin: 0;
+}
+.Footer {
+  height: 4vh;
+  background-color: #313131;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+}
+.Footer .Footer-text {
+  margin: 0;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  font-family: Noto Sans JP, sans-serif;
+}
+.Footer .Footer-text .Footer-text__author {
+  margin-left: 5px;
+  text-decoration: underline;
+}
+.AboutBar .AboutBar-overlay {
+  height: 100%;
+  width: 100%;
+  background-color: #000;
+  opacity: 0.9;
+  position: fixed;
+  z-index: 2;
+}
+.AboutBar .AboutBar-info {
+  height: 100%;
+  width: 30%;
+  min-width: 400px;
+  display: fixed;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  background-color: white;
+  z-index: 3;
+}
+.AboutBar .AboutBar-info .AboutBar-info-icon {
+  font-size: 40px;
+  position: fixed;
+  top: 48px;
+  right: 48px;
+}
+.AboutBar .AboutBar-info .AboutBar-info-text {
+  margin: 120px 60px 0 60px;
+}
+@font-face {
+  font-family: 'Satisfy';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Satisfy Regular'), local('Satisfy-Regular'), url(https://fonts.gstatic.com/s/satisfy/v10/rP2Hp2yn6lkG50LoCZOIGA.ttf) format('truetype');
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  margin: 0;
+  padding: 0;
+}
